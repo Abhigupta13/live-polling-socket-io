@@ -61,7 +61,6 @@ socket.on('student:submitAnswer', async (data) => {
   }
 });
     
-    // Chat functionality (Brownie Points feature)
     socket.on('chat:message', (data) => {
       io.emit('chat:message', data);
     });
