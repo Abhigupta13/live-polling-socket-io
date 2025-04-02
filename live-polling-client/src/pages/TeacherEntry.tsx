@@ -26,7 +26,7 @@ const TeacherEntry: React.FC = () => {
         <PollLogo />
         
         <div className="space-y-2">
-          <h1 className="text-2xl font-bold">Teacher Login</h1>
+          <h1 className="text-3xl font-bold">Teacher Login</h1>
           <p className="text-gray-500">
             Enter your name to create and manage polls for your students.
           </p>

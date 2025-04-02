@@ -2,7 +2,7 @@ import React from "react";
 
 const PollLogo: React.FC = () => {
   return (
-    <div className="inline-flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#5767D0] to-[#4F0DCE] text-white px-2 py-0.5 rounded-lg h-5 shadow-sm">
+    <div className="inline-flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#5767D0] to-[#4F0DCE] text-white px-2 py-0.5 rounded-lg h-7 shadow-sm">
       <svg 
         width="10" 
         height="10" 
