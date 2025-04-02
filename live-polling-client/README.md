@@ -1,12 +1,20 @@
-# React + Vite
+# Lively Feedback Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Lively Feedback Hub allows users to create and manage live polls. It helps gather feedback in real time.
 
-Currently, two official plugins are available:
+## Installation
+1. Clone the repository.
+2. Navigate to the frontend folder.
+3. Install dependencies with your preferred package manager.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. Start the development server.
+2. Open the application in your browser.
+3. Create or join a live poll to capture feedback instantly.
 
-## Expanding the ESLint configuration
+## Contributing
+Contributions are welcome. Fork the repository, make changes, and submit a pull request.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is licensed under the MIT License.
