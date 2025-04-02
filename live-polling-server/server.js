@@ -22,16 +22,7 @@ const setupSocketEvents = require('./utils/socketEvents');
 const app = express();
 const server = http.createServer(app);
 
-const allowedOrigins = [
-  'http://localhost:5173', 
-  'http://localhost:3000', 
-  'http://localhost:8080', 
-  'http://localhost:5000', 
-  'http://127.0.0.1:5173',
-  'https://live-quiz-polling-system.vercel.app/', 
-  /\.ngrok-free\.app$/,
-  /\.onrender\.com$/  // Add this line to allow Render domains
-];
+const allowedOrigins = ['*'];
 const io = socketIo(server, {
   cors: {
     origin: allowedOrigins,

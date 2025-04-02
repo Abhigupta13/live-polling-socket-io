@@ -478,7 +478,7 @@ const TeacherDashboard: React.FC = () => {
               </p>
 
               <Card className="shadow-sm border-none">
-                <CardContent className="pt-6">
+                <CardContent className="pt-2">
                   <div className="space-y-4">
                     <div>
                       <label className="block text-sm font-medium mb-1">
@@ -658,7 +658,7 @@ const TeacherDashboard: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="mt-6">
+                  <div className="mt-6 text-end">
                     <Button
                       onClick={handleCreatePoll}
                       disabled={
